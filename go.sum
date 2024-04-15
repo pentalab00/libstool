@@ -47,6 +47,8 @@ github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e h1:fD57ERR4JtEqsWb
 github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e/go.mod h1:zD1mROLANZcx1PVRCS0qkT7pwLkGfwJo4zjcN/Tysno=
 github.com/pentalab00/winrm v0.0.0-20240220041304-aad69be7d043 h1:3yOitjJwXZE/bVmRXVqbnO8CPpck9BOn0Yl14dcwejY=
 github.com/pentalab00/winrm v0.0.0-20240220041304-aad69be7d043/go.mod h1:Ab91dOfJ5d4bUjSvKwrKQt4Qlmy3Q9lYh9yzpldsLlk=
+github.com/pentalab00/winrm v0.0.0-20240220045413-03ddeb218080 h1:NYfpVvF89PIayMun2uChhwSdWK/NqZV87vSf6S1HR4g=
+github.com/pentalab00/winrm v0.0.0-20240220045413-03ddeb218080/go.mod h1:Ab91dOfJ5d4bUjSvKwrKQt4Qlmy3Q9lYh9yzpldsLlk=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=

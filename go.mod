@@ -3,7 +3,7 @@ module github.com/pentalab00/libstool
 go 1.21.1
 
 require (
-	github.com/pentalab00/winrm v0.0.0-20240220041304-aad69be7d043
+	github.com/pentalab00/winrm v0.0.0-20240220045413-03ddeb218080
 	golang.org/x/text v0.14.0
 )
 
