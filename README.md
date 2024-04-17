@@ -1,3 +1,3 @@
 # libstool
 
-Public repository 
+Public repository on github.com
