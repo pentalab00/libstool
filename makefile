@@ -7,6 +7,7 @@ clean :
 	@rm -f ./bin/*
 
 libstool.so : *.go
+	go get
 	go build -buildmode=plugin -o libstool.so
 
 install : 
