@@ -4,11 +4,18 @@ import (
 	"context"
 	"os"
 	"plugin"
+	"syscall"
 	"testing"
 	"time"
+
+	"golang.org/x/term"
 )
 
 func Test_winrm(t *testing.T) {
+	if !term.IsTerminal(syscall.Stdout) {
+		return
+	}
+
 	t.Log("start")
 
 	addr := os.Getenv("ADDRESS")
