@@ -8,6 +8,7 @@ clean :
 
 libstool.so : *.go
 	go get
+	umask 077
 	go build -buildmode=plugin -trimpath -o libstool.so
 
 install : 
