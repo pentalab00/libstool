@@ -8,8 +8,7 @@ clean :
 
 libstool.so : *.go
 	go get
-	umask 077
-	go build -buildmode=plugin -trimpath -o libstool.so
+	umask 077 && go build -buildmode=plugin -trimpath -o libstool.so
 
 install : 
 	@if [ ! -d ./bin ];then mkdir ./bin;fi 
